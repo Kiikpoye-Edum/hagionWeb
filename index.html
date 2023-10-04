@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hagion Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+
+        <nav>
+            <a href="index.html"><img src="./assets/hag-logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">ABOUT</a></li>
+                    <li><a href="index.html">SERVICES</a></li>
+                    <li><a href="index.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>We work hard, our results PREACH!</h1>
+            <p>
+                We plan, provide and deploy reliable tech stack solutions,to meet with globally scaled business needs.
+            </p>
+            <a class="hero-btn" href="#">Learn more about us....</a>
+        </div>
+    </section>
+
+    <!-- Our Services -->
+    <section class="services">
+        <h1>
+            Services We Offer
+        </h1>
+        <p>We are a conglomerate company vast in Information and communication Technology</p>
+        
+        <div class="row">
+            <div class="serv-col">
+                <h3>Information and Communication Technology</h3>
+                <img src="./assets/ict-img.jpeg" alt="">
+                <a class="hero-btn" href="#">Learn more ....</a>
+            </div>
+
+            <div class="serv-col">
+                <h3>Corporate ICT Training</h3>
+                <img src="./assets/cor-ict.jpg" alt="">
+                <a class="hero-btn" href="#">Learn more....</a>
+            </div>
+
+            <div class="serv-col">
+                <h3>Waste Management and Recycling</h3>
+                <img src="./assets/wst-mgt.jpg" alt="">
+                <a class="hero-btn" href="#">Learn more....</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Our Portfolio -->
+    <section class="portfolio">
+        <h1>Why Choose US</h1>
+        <p>We Ensure Perfect Quality, Digital Products and Services For You</p>
+
+        <div class="row">
+            <div class="port-col">
+                <h3>
+                    Family
+                </h3>
+                <p>
+                    At our core, we value family, fostering a supportive and inclusive environment where every team member is treated like family, ensuring a sense of belonging and unity.
+                </p>
+            </div>
+
+            <div class="port-col">
+                <h3>
+                    Integrity
+                </h3>
+                <p>
+                    Integrity is the cornerstone of our business ethics, guiding us to uphold the highest moral and ethical standards in our interactions with customers, partners, and the community, earning trust and respect along the way.
+                </p>
+            </div>
+
+            <div class="port-col">
+                <h3>
+                    Excellence
+                </h3>
+
+                <p>
+                    Our unwavering commitment to excellence drives us to consistently deliver top-notch quality in everything we do, setting high standards and pushing the boundaries of what's possible.
+                </p>
+            </div>
+
+            <div class="port-col">
+                <h3>
+                    Transformation
+                </h3>
+
+                <p>
+                    We are dedicated to the continuous transformation and improvement of our products and services, striving to innovate and adapt to meet the evolving needs of our customers in an ever-changing world.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right= "0px";
+        }
+
+        function hideMenu() {
+            navLinks.style.right= "-200px";
+        }
+
+        // --- Javascript for Toggle Menu----
+    </script>
+</body>
+</html>
