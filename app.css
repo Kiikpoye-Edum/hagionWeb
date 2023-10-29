@@ -8,12 +8,11 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(203, 199, 230, 0.7),rgba(10, 18, 51, 0.7)), url(./assets/home-bg.svg);
+    background-image: radial-gradient(circle at 17% 77%, rgba(17, 17, 17,0.04) 0%, rgba(17, 17, 17,0.04) 50%,rgba(197, 197, 197,0.04) 50%, rgba(197, 197, 197,0.04) 100%),radial-gradient(circle at 26% 17%, rgba(64, 64, 64,0.04) 0%, rgba(64, 64, 64,0.04) 50%,rgba(244, 244, 244,0.04) 50%, rgba(244, 244, 244,0.04) 100%),radial-gradient(circle at 44% 60%, rgba(177, 177, 177,0.04) 0%, rgba(177, 177, 177,0.04) 50%,rgba(187, 187, 187,0.04) 50%, rgba(187, 187, 187,0.04) 100%),linear-gradient(19deg, rgb(28, 117, 250),rgb(34, 2, 159));
     background-position: center;
     background-size: cover;
     position: relative;
 }
-
 nav{
     display: flex;
     padding: 2% 6%;
@@ -165,7 +164,7 @@ p{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    background: #e3d2eb;
+    background: #1C75FA;
 }
 
 .serv-col img{
@@ -175,7 +174,7 @@ p{
 .serv-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
     border-radius: 20px;
-    background: #644b70;
+    background: #22029F;
     transition: 0.5s;
     color: #fff;
 }
@@ -184,6 +183,11 @@ h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+}
+
+h4{
+    color: #fff;
+
 }
 
 @media(max-width: 767px){
@@ -211,5 +215,39 @@ h3{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    background: #e3d2eb;
+    background-color: #5775F9;
+}
+
+.team{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 1000px;
+}
+
+.footer{
+   /* width: 80%; */
+   padding-top: 100px; 
+   margin: auto;
+   background-color: #0A0B11;
+   padding-bottom: 50px;
+}
+
+.foot-links{
+    width: 80%;
+    margin: auto;
+}
+
+.foot-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.foot-col ul li{
+    display: block;
+    list-style: none;
 }
